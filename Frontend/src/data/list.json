@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name":"Story Book",
+        "description":"Story Book is a collection of stories for kids.",
+        "price": 200,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?t=st=1721579394~exp=1721582994~hmac=0b28694307a265175ede2b1354a124a91166175226f20ea2cc4a70423bfd94c0&w=740"
+    },
+    {
+        "id": 2,
+        "name":"Comics",
+        "description":"Comics is a collection of comics for kids.",
+        "price": 500,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?t=st=1721579394~exp=1721582994~hmac=0b28694307a265175ede2b1354a124a91166175226f20ea2cc4a70423bfd94c0&w=740"
+    },
+    {
+        "id": 3,
+        "name":"History Book",
+        "description":"History Book is a collection of history for everyone",
+        "price": 700,
+        "category":"Paid",
+        "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?t=st=1721579394~exp=1721582994~hmac=0b28694307a265175ede2b1354a124a91166175226f20ea2cc4a70423bfd94c0&w=740"
+    },
+    {
+        "id": 4,
+        "name":"Recipe Book",
+        "description":"Recipe Book is a collection of recipes for cooking lovers.",
+        "price": 100,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?t=st=1721579394~exp=1721582994~hmac=0b28694307a265175ede2b1354a124a91166175226f20ea2cc4a70423bfd94c0&w=740"
+    },
+    {
+        "id": 5,
+        "name":"Story Book",
+        "description":"Story Book is a collection of stories for kids.",
+        "price": 200,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?t=st=1721579394~exp=1721582994~hmac=0b28694307a265175ede2b1354a124a91166175226f20ea2cc4a70423bfd94c0&w=740"
+    },
+    {
+        "id": 6,
+        "name":"Story Book",
+        "description":"Story Book is a collection of stories for kids.",
+        "price": 200,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?t=st=1721579394~exp=1721582994~hmac=0b28694307a265175ede2b1354a124a91166175226f20ea2cc4a70423bfd94c0&w=740"
+    },
+    {
+        "id": 7,
+        "name":"Poetry Book",
+        "description":"Poetry Book is a collection of poetry for everyone",
+        "price": 400,
+        "category":"Paid",
+        "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?t=st=1721579394~exp=1721582994~hmac=0b28694307a265175ede2b1354a124a91166175226f20ea2cc4a70423bfd94c0&w=740"
+    },
+    {
+        "id": 8,
+        "name":"Sports Book",
+        "description":"Sports Book is a collection of sports for everyone",
+        "price": 50,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?t=st=1721579394~exp=1721582994~hmac=0b28694307a265175ede2b1354a124a91166175226f20ea2cc4a70423bfd94c0&w=740"
+    }
+]
