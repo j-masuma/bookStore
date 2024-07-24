@@ -1,9 +1,9 @@
-import banner from "../assets/images/Banner.jpg"
 
+import bann from "../assets/images/bann.png"
 function Banner() {
   return (
     <div className="max-width-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row my-10">
-        <div className="order-2 md:order1 w-full md:w-1/2 mt-12 md:mt-32">
+        <div className="order-2 md:order1 w-full md:w-1/2 mt-12 md:mt-30">
             <div className="space-y-12">
                 <h1 className="text-4xl font-bold">
                     Hello, Welcome here to learn something <span className="text-pink-500">new everyday!!!</span>
@@ -30,8 +30,8 @@ function Banner() {
             <button className="btn btn-secondary mt-6">Secondary</button>
             
         </div>
-        <div className=" order-1 md:order-2 w-full md:w-1/2">
-            <img className="w-92 h-92" src={banner} alt="Banner" />
+        <div className=" order-1 md:order-2 w-full md:w-1/2 md:mt-30 ">
+            <img className="w-92 h-100 mt-20" src={bann} alt="Banner" />
         </div>
     </div>
   )
