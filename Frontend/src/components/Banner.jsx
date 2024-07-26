@@ -6,11 +6,11 @@ function Banner() {
         <div className="order-2 md:order1 w-full md:w-1/2 mt-12 md:mt-30">
             <div className="space-y-12">
                 <h1 className="text-4xl font-bold">
-                    Hello, Welcome here to learn something <span className="text-pink-500">new everyday!!!</span>
+                    Hello, Welcome here tp Discover Your Next  <span className="text-pink-500">Great Read!!!</span>
                 </h1>
 
                 <p className="text-xl">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam inventore dolorem alias eligendi mollitia nisi qui, numquam dolor dignissimos distinctio saepe corporis voluptas consectetur atque nulla, blanditiis placeat recusandae possimus?
+                Discover a diverse collection of books, from bestsellers to timeless classics. Explore thrilling mysteries, enchanting fantasies, insightful biographies, and more. Start your reading adventure today!
                 </p>
 
                 <label className="input input-bordered flex items-center gap-2">
@@ -27,7 +27,7 @@ function Banner() {
                     <input type="text" className="grow" placeholder="Email" />
                 </label>
             </div>
-            <button className="btn btn-secondary mt-6">Secondary</button>
+            <button className="btn btn-secondary mt-6">Get Started</button>
             
         </div>
         <div className=" order-1 md:order-2 w-full md:w-1/2 md:mt-30 ">

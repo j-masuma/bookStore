@@ -17,8 +17,8 @@ function Cards( {items} ) {
                 </h2>
                 <p>{items.description}</p>
                 <div className="card-actions justify-between ">
-                <div className="badge badge-outline mt-2">${items.price}</div>
-                <div className="cursor-pointer text-sm px-2 py-1 rounded-full border-[2px] hover:bg-pink-500 hover:text-white">Buy Now</div>
+                <div className= " cursor-pointer text-xs px-2 py-1 rounded-full border-[2px] shadow">${items.price}</div>
+                <div className="cursor-pointer text-xs px-2 py-1 rounded-full border-[2px] hover:bg-pink-500 hover:text-white">Read Now</div>
                 </div>
             </div>
         </div>

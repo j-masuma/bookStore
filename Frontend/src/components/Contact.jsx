@@ -1,4 +1,5 @@
 import { useForm } from "react-hook-form"
+import toast from "react-hot-toast";
 
 
 function Contact() {
@@ -9,6 +10,7 @@ function Contact() {
     }=useForm();
     const onSubmit = (data) =>{
         console.log(data);
+        toast.success("Contact info submitted successfully!!!");
     }
   return (
     <div className=" flex items-center  justify-center min-h-screen ">

@@ -1,10 +1,26 @@
-import list from "../data/list.json"
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Cards from "./Cards";
+import { useEffect, useState } from "react";
+import axios from "axios";
+
+
 function FreeBook() {
-    const free_books=list.filter((book)=>book.category==="Free");
+    const [books, setBooks] = useState([]);
+    useEffect(()=>{
+    const getBooks = async ()=>{
+      try{
+        const res = await axios.get("http://localhost:4001/books");
+        console.log(res.data);
+        setBooks(res.data.filter((book)=>book.category==="Free"));
+      }catch(error){
+        console.log("Error : ",error);
+      }
+    }
+    getBooks();
+    },[])
     
     var settings = {
         dots: true,
@@ -41,17 +57,17 @@ function FreeBook() {
         ]
       };
 
-  return (
+    return (
     
         <div className="container mx-auto px-4 md:px-20">
             <div>
                 <h1 className="font-semibold text-xl">Free Books</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quae omnis fugit illum adipisci? </p>
+                <p>Explore a collection of free books spanning various genres. Discover captivating stories and valuable knowledge without any cost. Perfect for readers seeking great content on a budget. </p>
             </div>
             <div className="slider-container">
             <Slider {...settings}>
                 {
-                    free_books.map((item)=>
+                    books.map((item)=>
                         <Cards items={item} key={item.id}/>
                     )
                 }
@@ -60,7 +76,7 @@ function FreeBook() {
     </div>
     
 
-  )
+    )
 }
 
 export default FreeBook

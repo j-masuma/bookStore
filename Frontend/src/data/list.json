@@ -1,66 +1,123 @@
 [
     {
-        "id": 1,
-        "name":"Story Book",
-        "description":"Story Book is a collection of stories for kids.",
-        "price": 200,
-        "category":"Free",
-        "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?t=st=1721579394~exp=1721582994~hmac=0b28694307a265175ede2b1354a124a91166175226f20ea2cc4a70423bfd94c0&w=740"
+      "id": 1,
+      "name": "Comics",
+      "description": "Fun stories with pictures.",
+      "price": 500,
+      "category": "Free",
+      "image": "https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg"
     },
     {
-        "id": 2,
-        "name":"Comics",
-        "description":"Comics is a collection of comics for kids.",
-        "price": 500,
-        "category":"Free",
-        "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?t=st=1721579394~exp=1721582994~hmac=0b28694307a265175ede2b1354a124a91166175226f20ea2cc4a70423bfd94c0&w=740"
+      "id": 2,
+      "name": "Adventure Tales",
+      "description": "Exciting journeys and quests.",
+      "price": 600,
+      "category": "Paid",
+      "image": "https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg"
     },
     {
-        "id": 3,
-        "name":"History Book",
-        "description":"History Book is a collection of history for everyone",
-        "price": 700,
-        "category":"Paid",
-        "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?t=st=1721579394~exp=1721582994~hmac=0b28694307a265175ede2b1354a124a91166175226f20ea2cc4a70423bfd94c0&w=740"
+      "id": 3,
+      "name": "Science Fiction",
+      "description": "Futuristic science-based stories.",
+      "price": 700,
+      "category": "Paid",
+      "image": "https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg"
     },
     {
-        "id": 4,
-        "name":"Recipe Book",
-        "description":"Recipe Book is a collection of recipes for cooking lovers.",
-        "price": 100,
-        "category":"Free",
-        "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?t=st=1721579394~exp=1721582994~hmac=0b28694307a265175ede2b1354a124a91166175226f20ea2cc4a70423bfd94c0&w=740"
+      "id": 4,
+      "name": "Fantasy Worlds",
+      "description": "Magical realms and creatures.",
+      "price": 800,
+      "category": "Free",
+      "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg"
     },
     {
-        "id": 5,
-        "name":"Story Book",
-        "description":"Story Book is a collection of stories for kids.",
-        "price": 200,
-        "category":"Free",
-        "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?t=st=1721579394~exp=1721582994~hmac=0b28694307a265175ede2b1354a124a91166175226f20ea2cc4a70423bfd94c0&w=740"
+      "id": 5,
+      "name": "Mystery Novels",
+      "description": "Whodunit stories and secrets.",
+      "price": 550,
+      "category": "Paid",
+      "image": "https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg"
     },
     {
-        "id": 6,
-        "name":"Story Book",
-        "description":"Story Book is a collection of stories for kids.",
-        "price": 200,
-        "category":"Free",
-        "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?t=st=1721579394~exp=1721582994~hmac=0b28694307a265175ede2b1354a124a91166175226f20ea2cc4a70423bfd94c0&w=740"
+      "id": 6,
+      "name": "Historical Epics",
+      "description": "Dramatic historical events.",
+      "price": 900,
+      "category": "Free",
+      "image": "https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg"
     },
     {
-        "id": 7,
-        "name":"Poetry Book",
-        "description":"Poetry Book is a collection of poetry for everyone",
-        "price": 400,
-        "category":"Paid",
-        "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?t=st=1721579394~exp=1721582994~hmac=0b28694307a265175ede2b1354a124a91166175226f20ea2cc4a70423bfd94c0&w=740"
+      "id": 7,
+      "name": "Science Books",
+      "description": "Educational science content.",
+      "price": 650,
+      "category": "Paid",
+      "image": "https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg"
     },
     {
-        "id": 8,
-        "name":"Sports Book",
-        "description":"Sports Book is a collection of sports for everyone",
-        "price": 50,
-        "category":"Free",
-        "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?t=st=1721579394~exp=1721582994~hmac=0b28694307a265175ede2b1354a124a91166175226f20ea2cc4a70423bfd94c0&w=740"
+      "id": 8,
+      "name": "Biographies",
+      "description": "Life stories of famous people.",
+      "price": 750,
+      "category": "Free",
+      "image": "https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Self-Help",
+      "description": "Guides to personal improvement.",
+      "price": 600,
+      "category": "Paid",
+      "image": "https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Cookbooks",
+      "description": "Recipes and cooking tips.",
+      "price": 400,
+      "category": "Free",
+      "image": "https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Travel Guides",
+      "description": "Information for travelers.",
+      "price": 500,
+      "category": "Free",
+      "image": "https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Poetry Collections",
+      "description": "Verses and poems.",
+      "price": 300,
+      "category": "Paid",
+      "image": "https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Art Books",
+      "description": "Visual art and illustrations.",
+      "price": 950,
+      "category": "Free",
+      "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Health & Fitness",
+      "description": "Well-being and exercise guides.",
+      "price": 550,
+      "category": "Paid",
+      "image": "https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Children's Books",
+      "description": "Stories for young readers.",
+      "price": 450,
+      "category": "Free",
+      "image": "https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg"
     }
-]
+  ]
+  
