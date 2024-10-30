@@ -6,7 +6,7 @@ function Banner() {
         <div className="order-2 md:order1 w-full md:w-1/2 mt-12 md:mt-30">
             <div className="space-y-12">
                 <h1 className="text-4xl font-bold">
-                    Hello, Welcome here tp Discover Your Next  <span className="text-pink-500">Great Read!!!</span>
+                    Hello, Welcome here to Discover Your Next  <span className="text-pink-500">Great Read!!!</span>
                 </h1>
 
                 <p className="text-xl">
